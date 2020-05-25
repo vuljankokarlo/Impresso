@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="52480388d48646f4a5189098493a3f40" Name="Diagram1">
+        <EntityTypeShape EntityType="DBModel.Artikli" Width="1.5" PointX="8.25" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.Dobavljaci" Width="1.5" PointX="0.75" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.Izvjestaji" Width="1.5" PointX="3.75" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.Kase" Width="1.5" PointX="0.75" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.Kategorije" Width="1.5" PointX="6" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.Korisnici" Width="1.5" PointX="0.75" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.Narudzbe" Width="1.5" PointX="8.25" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.Placanja" Width="1.5" PointX="0.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.Primke" Width="1.5" PointX="3" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.Racuni" Width="1.5" PointX="3" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.StavkeNarudzbe" Width="1.5" PointX="10.5" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.StavkePrimke" Width="1.5" PointX="10.5" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.Stolovi" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.sysdiagram" Width="1.5" PointX="5.75" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.Tipovi" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.Transakcije" Width="1.5" PointX="6" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.Uloge" Width="1.5" PointX="1.5" PointY="11.625" IsExpanded="true" />
+        <AssociationConnector Association="DBModel.FK_Artikli_Kategorije" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK_StavkeNarudzbe_Artikli" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK_StavkePrimke_Artikli" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK_Primke_Dobavljaci" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK_Racuni_Kase" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK_Transakcije_Kase" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK_Korisnici_Uloge" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK_Narudzbe_Korisnici" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK_Primke_Korisnici1" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK_Racuni_Korisnici" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK_Narudzbe_Racuni" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK_Narudzbe_Stolovi" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK_StavkeNarudzbe_Narudzbe" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK_Racuni_Placanja" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK_StavkePrimke_Primke" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModel.FK_Transakcije_Tipovi" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
